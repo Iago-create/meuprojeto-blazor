@@ -1,0 +1,14 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Olá, mundo!</h1>
+
+Meu Nome é <strong>@Nome</strong> e tenho <strong>@Idade</strong> anos.
+Faço faculdade de <strong>@Faculdade</strong>.
+
+@code {
+  private string Nome = "Iago";
+  private int Idade = 24;
+  private string Faculdade = "Engenharia de Software";
+}
